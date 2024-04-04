@@ -1,1 +1,62 @@
+<DOCTYPE! html>
 
+<html>
+    <head>
+        <title>Site Teste!!!</title>
+
+        <style>
+            table{
+                padding: 8px;
+                background-color: bisque;
+                border-collapse: collapse;
+
+            }
+            tr{
+                border: 8px solid black;
+                padding: 8px;
+            }
+
+            td{
+                border: 8px solid black;
+                padding: 8px;
+            }
+            th{
+                border: 8px solid black;
+                padding: 8px;
+                background-color: darkgoldenrod;
+            }
+            td.foto{
+                height: 150px;
+                weight: 150px;
+
+            }
+        </style>
+    </head>
+    <body>
+        <h1>"Jogos"</h1>
+        <table>
+            <tr>
+                <th>Nome</th>
+                <th>Valor</th>
+                <th>Link</th>
+                <th>Foto</th>
+            </tr>
+            <tr>
+                <td>Zelda TOTK</td>
+                <td>R$ 375,00</td>
+                <td><a href="https://www.nintendo.com/pt-br/store/products/the-legend-of-zelda-tears-of-the-kingdom-switch/">"Clique Aqui"</a></td>
+                <td class="foto"><img src="https://http2.mlstatic.com/D_NQ_NP_850327-MLA54712581525_032023-O.webp"></td>
+            </tr>
+            <tr>
+                <td>God Of War Ragnarok</td>
+                <td>R$ 300,00</td>
+                <td><a href="https://www.playstation.com/pt-br/games/god-of-war-ragnarok/">"Clique aqui"</a></td>
+                <td class="foto"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOo7FSXwZ-T1K546yEcQKHZOWlYFGfOpozI1tLrH_lnHKJPrCeJJ_fZNruAVgTXJNZh-4&usqp=CAU"></td>
+            </tr>
+        </table>
+        
+
+    </body>
+
+
+</html>
